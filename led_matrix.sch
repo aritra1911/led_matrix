@@ -1187,7 +1187,7 @@ U 1 1 5F6EB18B
 P 3100 4050
 F 0 "U1" H 3300 5100 50  0000 C CNN
 F 1 "MAX7219" H 3300 5000 50  0000 C CNN
-F 2 "" H 3050 4100 50  0001 C CNN
+F 2 "Package_SO:SOP-24_7.5x15.4mm_P1.27mm" H 3050 4100 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 3150 3900 50  0001 C CNN
 	1    3100 4050
 	1    0    0    -1  
@@ -1217,7 +1217,7 @@ U 1 1 5F711C58
 P 2700 3050
 F 0 "R1" H 2770 3096 50  0000 L CNN
 F 1 "27k" H 2770 3005 50  0000 L CNN
-F 2 "" V 2630 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 3050 50  0001 C CNN
 F 3 "~" H 2700 3050 50  0001 C CNN
 	1    2700 3050
 	1    0    0    -1  
@@ -1324,7 +1324,7 @@ U 1 1 5F9EA8B3
 P 9100 1250
 F 0 "C1" H 9218 1296 50  0000 L CNN
 F 1 "10uF" H 9218 1205 50  0000 L CNN
-F 2 "" H 9138 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x3" H 9138 1100 50  0001 C CNN
 F 3 "~" H 9100 1250 50  0001 C CNN
 	1    9100 1250
 	1    0    0    -1  
@@ -1335,7 +1335,7 @@ U 1 1 5F9F8D98
 P 9500 1250
 F 0 "C2" H 9615 1296 50  0000 L CNN
 F 1 "100nF" H 9615 1205 50  0000 L CNN
-F 2 "" H 9538 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 1100 50  0001 C CNN
 F 3 "~" H 9500 1250 50  0001 C CNN
 	1    9500 1250
 	1    0    0    -1  
@@ -1362,13 +1362,9 @@ Wire Wire Line
 	9500 1400 9500 1450
 Connection ~ 9500 1400
 Wire Notes Line width 10 style solid rgb(194, 0, 92)
-	8850 800  9750 800 
-Wire Notes Line width 10 style solid rgb(194, 0, 92)
 	8850 1700 8850 800 
 Wire Notes Line width 10 style solid rgb(194, 0, 92)
 	9900 1700 9900 800 
-Wire Notes Line width 10 style solid rgb(194, 0, 92)
-	9900 800  9750 800 
 Wire Notes Line width 10 style solid rgb(194, 0, 92)
 	8850 1700 9900 1700
 Wire Notes Line width 10 style solid rgb(0, 100, 194)
@@ -1445,7 +1441,7 @@ U 1 1 5FAB39D3
 P 2200 1250
 F 0 "J1" H 2308 1631 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2308 1540 50  0000 C CNN
-F 2 "" H 2200 1250 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 2200 1250 50  0001 C CNN
 F 3 "~" H 2200 1250 50  0001 C CNN
 	1    2200 1250
 	1    0    0    -1  
@@ -1456,7 +1452,7 @@ U 1 1 5FBAB225
 P 2650 5050
 F 0 "R2" H 2720 5096 50  0000 L CNN
 F 1 "10k" H 2720 5005 50  0000 L CNN
-F 2 "" V 2580 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 5050 50  0001 C CNN
 F 3 "~" H 2650 5050 50  0001 C CNN
 	1    2650 5050
 	1    0    0    -1  
@@ -1617,6 +1613,8 @@ Wire Wire Line
 	8900 2600 8900 2850
 Wire Wire Line
 	9300 2600 9300 2850
+Wire Notes Line width 10 style solid rgb(194, 0, 92)
+	8850 800  9900 800 
 Wire Bus Line
 	6400 3050 6400 5550
 Wire Bus Line
