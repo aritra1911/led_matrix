@@ -10,7 +10,7 @@ In collaboration with [@CodeOn-ArK](https://github.com/CodeOn-ArK).
 
 ## Renders
 ### Front
-![front](https://github.com/aritra1911/led_matrix/blob/master/images/front.png?raw=true)
+![front](https://github.com/aritra1911/led_matrix/blob/4_layer/images/front.png?raw=true)
 
 ### Back
-![back](https://github.com/aritra1911/led_matrix/blob/master/images/back.png?raw=true)
+![back](https://github.com/aritra1911/led_matrix/blob/4_layer/images/back.png?raw=true)
