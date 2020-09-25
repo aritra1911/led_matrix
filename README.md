@@ -1,2 +1,16 @@
 # 8x8 LED Matrix
-My first PCB project in KiCAD.
+## Description
+This uses a MAX7219, hence refer to its [datasheet](https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf)
+for interfacing.
+
+In collaboration with [@CodeOn-ArK](https://github.com/CodeOn-ArK).
+
+## Schematic
+![schematic](https://github.com/aritra1911/led_matrix/blob/master/images/schematic.svg?raw=true)
+
+## Renders
+### Front
+![front](https://github.com/aritra1911/led_matrix/blob/master/images/front.jpg?raw=true)
+
+### Back
+![back](https://github.com/aritra1911/led_matrix/blob/master/images/back.jpg?raw=true)
